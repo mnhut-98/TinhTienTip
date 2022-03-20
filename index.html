@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <h2>Tính tiền tip</h2>
+
+        <form action="">
+            <div class="item">
+                <label for="">Tổng tiền thanh toán?</label>
+                
+               
+                <input type="text" name="" id="total" placeholder="Tổng tiền">
+            </div>
+            <div class="item">
+                <label for="">Bạn muốn tip bao nhiêu?</label>
+                <select name="" id="tip">
+                    <option value="0" selected disabled>--CHỌN ĐỂ TIP ----</option>
+                    <option value="0.1">10%</option>
+                    <option value="0.2">20%</option>
+                    <option value="0.3">30%</option>
+                </select>
+            </div>
+            <div class="item">
+                <label for="">Bạn muốn share bao nhiêu người?</label>
+                <input type="number" name="" id="share" min="0" >
+            </div>
+            <div class="btn-submit">
+                <button type="button" id="caculator">Tính nào !</button>
+            </div>
+
+            <div class="info">
+                <p class="title">TIP AMOUNT</p>
+                <sup>$</sup>
+                <span class="price" id="price">10.00</span>
+                <p class="person" id="person">mỗi người</p>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

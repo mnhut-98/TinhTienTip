@@ -1,0 +1,65 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.wrapper {
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 3px 30px;
+   
+}
+
+h2 {
+    border-radius: 10px 10px 0 0;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: rgb(128, 29, 29);
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+input,select,option{
+    padding: 10px;
+}
+label{
+    padding-bottom: 10px;
+}
+form{
+    padding: 0 20px 20px;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(104, 29, 29);
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn-submit{
+    text-align: center;
+    margin-top: 20px;
+}
+.info{
+    text-align: center;
+}
+.info .title{
+    font-size: 15px;
+    font-weight: bold;
+}
+.info .price{
+    font-size: 20px;
+    font-weight: bold;
+}
